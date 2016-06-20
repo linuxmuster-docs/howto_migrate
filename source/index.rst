@@ -1,33 +1,18 @@
-.. Installationsleitfaden documentation master file, created by
-   sphinx-quickstart on Sat Nov  7 15:29:20 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Migration von paedML/openML/linuxmuster.net
 ===========================================
 
-Das ist die Hauptdatei aus dem meta_example-Paket, die enthält zunächst nur das Inhaltsverzeichnis. 
-Jedes Kapitel der Dokumentation kommt in eine eigene Datei, die hier 
-eingebunden wird.
+Um von einer älteren installierten paedML, einer openML oder einer linuxmuster.net 6.0 (Codename ObenBleiben) Installation auf das aktuelle linuxmuster.net 6.2 (Codename Babo62) zu migrieren, ist eine Migration mithilfe der Migrationsskripte `linuxmuster-migration` durchzuführen. 
+
+Hierbei werden alle benötigten Daten/Dateien der aktuell genutzen Version gesichert, ein neues System mit der gewünschten Version installiert und dann die gesicherten Daten zurückgespielt (restore). 
 
 Inhalt:
 
 .. toctree::
    :maxdepth: 2
 
-   ueberschriften
-   links
-   listen 
-   blockquote
-   bilder
-   quelltext
-   tabellen
-
-
-
-Index 
------
-
-* :ref:`genindex`
-* :ref:`search`
-
+   summary
+   install_paket
+   config_migration_script
+   run_config_script
+   install_new_linuxmuster
+   restore_via_migration_script
