@@ -1,5 +1,5 @@
-Migration zu linuxmuster.net 6.2 
-================================
+Übersicht zu den Migrationsschritten 
+====================================
 
 Voraussetzungen
 ---------------

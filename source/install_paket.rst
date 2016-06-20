@@ -34,12 +34,12 @@ Danach aktualisieren Sie die Paketquellen mit nachstehendem Befehl:
 
 .. code:: bash
 
-    # apt-get update
+    apt-get update
 
 Anschließend installieren Sie das Paket **linuxmuster-migration**:
 
 .. code:: bash
 
-    # apt-get install linuxmuster-migration
+    apt-get install linuxmuster-migration
 
 
