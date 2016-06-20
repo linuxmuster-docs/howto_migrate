@@ -6,7 +6,7 @@ Für die Datenmigration auf dem nun neu installierten Zielsystem ist das Shell-S
 
 Die Optionen des Skript können wie folgt ausgegeben werden:
 
-.. script:: bash
+.. code:: bash
 
      server ~ > linuxmuster-migration-restore -h
      

@@ -5,7 +5,7 @@ Die Sicherung der Migrationsdaten wird über das Shell-Skript **linuxmuster-migr
 
 Die Optionen des Skripts könenn mit folgendem Befehl kontrolliert werdne: 
 
-.. script:: bash
+.. code:: bash
 
     server ~>  linuxmuster-migration-backup -h
     
@@ -35,7 +35,7 @@ Die Ausgaben des Skripts werden in die Datei ``/var/log/linuxmuster/migration-ba
 
 Beispiel:
 
-.. script:: bash
+.. code:: bash
 
      linuxmuster-migration-backup -d /media/backup/migration
 
