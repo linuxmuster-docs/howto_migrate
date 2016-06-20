@@ -12,7 +12,8 @@ Einstellungen bzgl. zusätzlich zu sichernden bzw. vom Backup auszuschließenden
 ein. Diese Dateien werden beim Backup mitgesichert und beim Restore auf dem Zielsystem ausgewertet.
 Eigene Dateien und Verzeichnisse einbeziehen
 
-Soll zum Beispiel die Schulhomepage, die unter ``/var/www/homepage`` abgelegt ist, ebenfalls gesichert und auf dem Zielsystem wieder hergestellt werden, so trägt man den Pfad einfach in ``etc/linuxmuster/migration/include.conf`` ein:
+Soll zum Beispiel die Schulhomepage, die unter ``/var/www/homepage``  
+abgelegt ist, ebenfalls gesichert und auf dem Zielsystem wieder hergestellt werden, so trägt man den Pfad einfach in ``etc/linuxmuster/migration/include.conf`` ein:
 
 .. code:: bash
 
@@ -28,10 +29,10 @@ Soll zum Beispiel das schulweite Tauschverzeichnis von der Migration ausgeschlos
 
 .. code:: bash
 
-    #\*.mp3
-    /home/share/school/\*
+    #*.mp3
+    /home/share/school/*
 
-Es können per Wildcard (\*) bestimmte Dateimuster ausgeschlossen werden (z. Bsp. \*.mp3).
+Es können per Wildcard (*) bestimmte Dateimuster ausgeschlossen werden (z. Bsp. *.mp3).
 
 Weitere Wiederherstellungsoptionen
 ----------------------------------
